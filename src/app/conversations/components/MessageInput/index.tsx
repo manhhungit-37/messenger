@@ -17,6 +17,8 @@ function MessageInput<T extends FieldValues> ({
   register,
   errors,
 }: Props<T>) {
+  console.log(errors);
+
   return (
     <div className="relative w-full">
       <input
